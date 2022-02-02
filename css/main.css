@@ -1,0 +1,44 @@
+html, body, .wrapper{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: column;
+}
+
+.wrapper header {
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+#avatar{
+    border-radius:50%;
+    height:120px;
+    width:120px;
+}
+
+#title {
+    font-size: 20px;
+}
+
+.content {
+    padding: 50px;
+    flex-grow: 1;
+    background-color: #DAE3E7;;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    background-color: rgb(27, 39, 53);
+    color:white;
+    padding: 5px;
+    font-size:15px;
+}
+
