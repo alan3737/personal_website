@@ -2,6 +2,7 @@ html, body, .wrapper{
     height:100%;
     width:100%;
     box-sizing: border-box;
+    margin:0;
 }
 
 .wrapper {
@@ -28,9 +29,78 @@ html, body, .wrapper{
 }
 
 .content {
-    padding: 50px;
+    display:flex;
+    padding: 40px;
     flex-grow: 1;
-    background-color: #DAE3E7;;
+    gap:20px;
+    background-color: #DAE3E7;
+}
+
+.side {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.box {
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left-side {   
+    flex-grow: 2;    
+}
+
+.project {
+    height:100%;
+}
+
+.proj {
+    margin:50px 50px 50px 0px;
+    display:flex;
+    align-items: center;
+}
+.proj img {
+    height:200px;
+    width:200px;
+    margin-right: 50px;
+}
+
+.right-side {
+    flex: 1 0 auto;
+
+}
+
+.contact img {
+    height:30px;
+    width: 30px;
+}
+.contact li {
+    display:flex;
+    align-items: center;
+}
+.contact li a {
+    text-decoration: none;
+    margin:5px;
+
+}
+
+.education div{
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding:0px;
+}
+li {
+    margin-bottom:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
 }
 
 footer {
